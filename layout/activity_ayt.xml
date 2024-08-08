@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ayt">
+
+    <ImageView
+        android:id="@+id/arkaplan2"
+        android:layout_width="1686dp"
+        android:layout_height="1022dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.855"
+        app:srcCompat="@drawable/arkaplan"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edebiyatd"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz35"
+        app:layout_constraintStart_toStartOf="@+id/beyaz35"
+        tools:layout_editor_absoluteY="203dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/esitagırlık"
+        android:layout_width="42dp"
+        android:layout_height="19dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz3"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toStartOf="@+id/beyaz3"
+        tools:layout_editor_absoluteY="612dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/sayısal"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz1"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="@+id/beyaz1"
+        tools:layout_editor_absoluteY="612dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/biyolojid"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/beyaz13"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz13"
+        app:layout_constraintStart_toStartOf="@+id/beyaz13"
+        app:layout_constraintTop_toTopOf="@+id/beyaz13" />
+
+    <EditText
+        android:id="@+id/sözel"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/beyaz2"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz2"
+        app:layout_constraintStart_toStartOf="@+id/beyaz2"
+        app:layout_constraintTop_toTopOf="@+id/beyaz2" />
+
+    <EditText
+        android:id="@+id/biyolojin"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz11"
+        app:layout_constraintStart_toStartOf="@+id/beyaz11"
+        tools:layout_editor_absoluteY="564dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/biyolojiy"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/beyaz12"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz12"
+        app:layout_constraintStart_toStartOf="@+id/beyaz12"
+        app:layout_constraintTop_toTopOf="@+id/beyaz12"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/kimyan"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz8"
+        app:layout_constraintStart_toStartOf="@+id/beyaz8"
+        tools:layout_editor_absoluteY="528dp"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/kimyay"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz9"
+        app:layout_constraintStart_toStartOf="@+id/beyaz9"
+        tools:layout_editor_absoluteY="528dp"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/kimyad"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/beyaz10"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz10"
+        app:layout_constraintStart_toStartOf="@+id/beyaz10"
+        app:layout_constraintTop_toTopOf="@+id/beyaz10"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/fizikn"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz5"
+        app:layout_constraintStart_toStartOf="@+id/beyaz5"
+        tools:layout_editor_absoluteY="491dp"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/fiziky"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz6"
+        app:layout_constraintStart_toStartOf="@+id/beyaz6"
+        tools:layout_editor_absoluteY="491dp"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/fizikd"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz7"
+        app:layout_constraintStart_toStartOf="@+id/beyaz7"
+        tools:layout_editor_absoluteY="491dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/matn"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz19"
+        app:layout_constraintStart_toStartOf="@+id/beyaz19"
+        tools:layout_editor_absoluteY="455dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/maty"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz14"
+        app:layout_constraintStart_toStartOf="@+id/beyaz14"
+        tools:layout_editor_absoluteY="455dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/matd"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="@+id/beyaz4"
+        tools:layout_editor_absoluteY="455dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/dinn"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz16"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/beyaz16"
+        tools:layout_editor_absoluteY="420dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/diny"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz17"
+        app:layout_constraintStart_toStartOf="@+id/beyaz17"
+        tools:layout_editor_absoluteY="420dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/dind"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="@+id/beyaz18"
+        tools:layout_editor_absoluteY="420dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz1"
+        android:layout_width="67dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="92dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/beyaz3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz2"
+        android:layout_width="67dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="92dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz3"
+        android:layout_width="67dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="92dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/beyaz2"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz4"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/beyaz14"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz18"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz5"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz19"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz6"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/beyaz5"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz14"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz7"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/beyaz6"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toEndOf="@+id/fizik"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz4"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz8"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz5"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz9"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/beyaz8"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz6"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz10"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/beyaz9"
+        app:layout_constraintHorizontal_bias="0.813"
+        app:layout_constraintStart_toEndOf="@+id/kimya"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz7"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz11"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz8"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz12"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/beyaz11"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz9"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz13"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/beyaz12"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toEndOf="@+id/biyoloji"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz10"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz14"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/beyaz19"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz17"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz15"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/beyaz23"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz28"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz16"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz22"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz17"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/beyaz16"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz21"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz18"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/beyaz17"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz20"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz19"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz16"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz20"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/beyaz21"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz15"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz21"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/beyaz22"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz23"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz22"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz25"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz23"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/beyaz25"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz27"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz24"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/beyaz32"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz36"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz25"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz26"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz26"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz29"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz27"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/beyaz26"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz32"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz28"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/beyaz27"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz24"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/felsefey"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz21"
+        app:layout_constraintStart_toStartOf="@+id/beyaz21"
+        tools:layout_editor_absoluteY="385dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/cografya2y"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/beyaz23"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz23"
+        app:layout_constraintTop_toTopOf="@+id/beyaz23" />
+
+    <EditText
+        android:id="@+id/cografya2n"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/beyaz25"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz25"
+        app:layout_constraintStart_toStartOf="@+id/beyaz25"
+        app:layout_constraintTop_toTopOf="@+id/beyaz25" />
+
+    <EditText
+        android:id="@+id/tarih2n"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/beyaz26"
+        app:layout_constraintTop_toTopOf="@+id/beyaz26"
+        tools:layout_editor_absoluteX="298dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/tarih2y"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/beyaz27"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz27"
+        app:layout_constraintStart_toStartOf="@+id/beyaz27"
+        app:layout_constraintTop_toTopOf="@+id/beyaz27" />
+
+    <EditText
+        android:id="@+id/felsefen"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/beyaz22"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz22"
+        app:layout_constraintStart_toStartOf="@+id/beyaz22"
+        app:layout_constraintTop_toTopOf="@+id/beyaz22" />
+
+    <EditText
+        android:id="@+id/tarih2d"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/beyaz28"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz28"
+        app:layout_constraintStart_toStartOf="@+id/beyaz28"
+        app:layout_constraintTop_toTopOf="@+id/beyaz28" />
+
+    <ImageView
+        android:id="@+id/beyaz29"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz30"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz30"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz31"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz31"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="76dp"
+        android:contentDescription="T"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz32"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:contentDescription="T2"
+        app:layout_constraintEnd_toStartOf="@+id/beyaz29"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz33"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz33"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/beyaz30"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz34"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/beyaz34"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="12dp"
+        android:contentDescription="T3"
+        app:layout_constraintEnd_toStartOf="@+id/beyaz31"
+        app:layout_constraintTop_toBottomOf="@+id/yanlıs"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/aythesaplama"
+        android:layout_width="272dp"
+        android:layout_height="50dp"
+        android:text="AYT Hesaplama"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <TextView
+        android:id="@+id/edebiyat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="101dp"
+        android:text="Edebiyat :"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aythesaplama"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/kimya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="16dp"
+        android:text="Kimya :"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fizik"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/fizik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="16dp"
+        android:text="Fizik :"
+        android:textColor="#FEFEFE"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Matematik"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Matematik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="16dp"
+        android:text="Matematik:"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dinkültürü"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/biyoloji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="16dp"
+        android:text="Biyoloji :"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kimya"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/doğru"
+        android:layout_width="42dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="12dp"
+        android:text="Doğru"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/yanlıs"
+        app:layout_constraintTop_toBottomOf="@+id/aythesaplama" />
+
+    <TextView
+        android:id="@+id/yanlıs"
+        android:layout_width="42dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="16dp"
+        android:text="Yanlış"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/aythesaplama" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="38dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="80dp"
+        android:text="Net"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aythesaplama" />
+
+    <TextView
+        android:id="@+id/tarih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="16dp"
+        android:text="Tarih1 :"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edebiyat" />
+
+    <TextView
+        android:id="@+id/coğrafya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="16dp"
+        android:text="Coğrafya1 :"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tarih" />
+
+    <TextView
+        android:id="@+id/tarih2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="16dp"
+        android:text="Tarih2 :"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coğrafya"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/coğrafya2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="16dp"
+        android:text="Coğrafya2 :"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tarih2" />
+
+    <TextView
+        android:id="@+id/felsefe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="16dp"
+        android:text="Felsefe"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coğrafya2" />
+
+    <TextView
+        android:id="@+id/dinkültürü"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="20dp"
+        android:text="Din Kültürü :"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/felsefe" />
+
+    <ImageView
+        android:id="@+id/beyaz35"
+        android:layout_width="40dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/beyaz34"
+        app:layout_constraintStart_toEndOf="@+id/edebiyat"
+        app:layout_constraintTop_toBottomOf="@+id/doğru"
+        app:srcCompat="@android:drawable/editbox_background_normal" />
+
+    <EditText
+        android:id="@+id/felsefed"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/beyaz20"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz20"
+        app:layout_constraintStart_toStartOf="@+id/beyaz20"
+        app:layout_constraintTop_toTopOf="@+id/beyaz20"
+        tools:ignore="DuplicateIds" />
+
+    <ImageView
+        android:id="@+id/beyaz36"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/beyaz33"
+        app:layout_constraintTop_toBottomOf="@+id/beyaz35"
+        app:srcCompat="@android:drawable/editbox_background_normal"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="86dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="92dp"
+        android:text="Hesapla"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SmallSp" />
+
+    <EditText
+        android:id="@+id/cografya2d"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/beyaz15"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz15"
+        app:layout_constraintStart_toStartOf="@+id/beyaz15"
+        app:layout_constraintTop_toTopOf="@+id/beyaz15" />
+
+    <EditText
+        android:id="@+id/cografyand"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/beyaz24"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz24"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="@+id/beyaz24"
+        app:layout_constraintTop_toTopOf="@+id/beyaz24" />
+
+    <EditText
+        android:id="@+id/cografyan"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/beyaz29"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz29"
+        app:layout_constraintStart_toStartOf="@+id/beyaz29"
+        app:layout_constraintTop_toTopOf="@+id/beyaz29" />
+
+    <EditText
+        android:id="@+id/tarihy"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/beyaz33"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz33"
+        app:layout_constraintStart_toStartOf="@+id/beyaz33"
+        app:layout_constraintTop_toTopOf="@+id/beyaz33" />
+
+    <EditText
+        android:id="@+id/taihn"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/beyaz30"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz30"
+        app:layout_constraintStart_toStartOf="@+id/beyaz30"
+        app:layout_constraintTop_toTopOf="@+id/beyaz30" />
+
+    <EditText
+        android:id="@+id/edebiyatn"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/beyaz31"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz31"
+        app:layout_constraintStart_toStartOf="@+id/beyaz31"
+        app:layout_constraintTop_toTopOf="@+id/beyaz31" />
+
+    <EditText
+        android:id="@+id/cografyay"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz32"
+        app:layout_constraintStart_toStartOf="@+id/beyaz32"
+        tools:layout_editor_absoluteY="274dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edebiyaty"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/beyaz34"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz34"
+        app:layout_constraintStart_toStartOf="@+id/beyaz34"
+        app:layout_constraintTop_toTopOf="@+id/beyaz34" />
+
+    <EditText
+        android:id="@+id/tarihd"
+        android:layout_width="37dp"
+        android:layout_height="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/beyaz36"
+        app:layout_constraintEnd_toEndOf="@+id/beyaz36"
+        app:layout_constraintStart_toStartOf="@+id/beyaz36"
+        app:layout_constraintTop_toTopOf="@+id/beyaz36" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
